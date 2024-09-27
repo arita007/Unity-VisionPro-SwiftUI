@@ -2,6 +2,14 @@
 Intergrate SwiftUI into Unity. Using Attachments in RealityView.
 > https://developer.apple.com/documentation/realitykit/realityviewattachments
 
+# Feature
+* You can intergate SwiftUI into Unity.
+* There are two mode of intergated SwiftUI View.
+  * Inject SwiftUI view into Unity's 3D scene. So **you can set the position/rotation** of the SwiftUI view as you want. 
+  * Independent SwiftUI Window. (Same as the Polyspatial demo.)
+    > https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@1.1/manual/InteropWithSwiftUI.html
+
+
 ## How to start
 * Build the Unity project to XCode project.
 * Open `UnityVisionOSSettings.swift`
